@@ -358,11 +358,19 @@ display: flex;
 .contact  .right form .fields .field{
     height:45px;
     width:100%;
+    margin-bottom: 15px;
+}
+.contact  .right form .textarea{
+    height: 80px;
 }
 .contact .right form .name{
     margin-right: 10px;
 }
-.contact  .right form .field input{
+.contact .right form .email{
+    margin-right: 10px;
+}
+.contact  .right form .field input,
+.contact  .right form .textarea textarea{
     height: 100%;
     width: 100%;
     border:1px solid lightgrey;
